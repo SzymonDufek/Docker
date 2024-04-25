@@ -2,23 +2,15 @@ version: '3'
 
 services:
   frontend:
-    build:
-      context: ./frontend
+    build: ./frontend
     ports:
       - "80:80"
     depends_on:
       - backend
-    networks:
-      - my_network
+
 
   backend:
-    build:
-      context: ./backend
+    build: ./backend
     ports:
       - "8000:8000"
-    networks:
-      - my_network
   
-networks:
-  my_network:
-    driver: bridge
