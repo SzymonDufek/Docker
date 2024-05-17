@@ -49,5 +49,6 @@ To run the project, ensure you have Docker and Docker Compose installed. Then, f
 Open your browser and navigate to `http://localhost:8000`.
 
 - Submit a form
+
 Submit image and ask a question.
 
