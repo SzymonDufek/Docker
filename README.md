@@ -28,8 +28,8 @@ To run the project, ensure you have Docker and Docker Compose installed. Then, f
 - Clone the repository:
 
 ```sh
-  git clone <repository_url>
-  cd <repository_directory>
+  git clone https://github.com/SzymonDufek/Project-Docker.git
+  cd project-docker
 ```
 
 - Navigate to the project directory:
