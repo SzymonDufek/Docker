@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  database_service:
+    build: ./database
+    container_name: database_service
+    ports:
+      - "8001:8001"
+    networks:
+      - fastapi_network
+
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    ports:
+      - "8000:9000"
+    depends_on:
+      - database_service
+    networks:
+      - fastapi_network
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    ports:
+      - "7000:7000"
+    networks:
+      - fastapi_network
+
+networks:
+  fastapi_network:
+    driver: bridge

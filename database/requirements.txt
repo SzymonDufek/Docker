@@ -1,0 +1,6 @@
+# database/requirements.txt
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+typing
