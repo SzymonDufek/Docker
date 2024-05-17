@@ -29,13 +29,12 @@ To run the project, ensure you have Docker and Docker Compose installed. Then, f
 
 ```sh
   git clone https://github.com/SzymonDufek/Project-Docker.git
-  cd project-docker
 ```
 
 - Navigate to the project directory:
 
 ```sh
-  cd project-docker
+  cd Project-Docker
 ```
 
 - Build and start the project
