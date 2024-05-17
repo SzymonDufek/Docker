@@ -45,7 +45,7 @@ To run the project, ensure you have Docker and Docker Compose installed. Then, f
 
 - Access to the frontend service
 
-Open your browser and navigate to `http://localhost:8000`.
+Open your browser and navigate to `http://localhost:7000`.
 
 - Submit a form
 
